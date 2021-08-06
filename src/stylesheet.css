@@ -16,7 +16,7 @@ code {
 
 .container {
   display: block;
-  text-align: right;
+  /* text-align: right; */
   position: relative;
   padding-left: 55px;
   margin-bottom: 12px;
@@ -37,8 +37,8 @@ code {
 }
 
 .flagImage {
-  height: 66px;
-  width: 100px; 
+  height: 70px;
+  width: 120px; 
   border: 1px solid black;
 }
 
@@ -50,17 +50,37 @@ code {
     margin-bottom: 30px;
 }
 
+label {
+    position: relative;
+    right: 15px;
+}
+
 .noFlags {
     background-color: rgba(255, 230, 0, 0.877);
 }
 
-#tickBoxDiv {
+.tickBoxDiv {
     display: flex; 
+    flex-direction: column;
+    background-color: rgb(255, 221, 0);
 }
 
-.tickBoxSubDivTitle {
+.tickBoxIntDiv {
+    display: flex;
+}
+
+.tickBoxSubdiv {
     text-align: right;
+}
+
+.tickBoxGroupTitle {
+    text-align: center;
     color: blue;
+}
+
+#TickBoxes {
+  display: flex;
+  justify-content: space-around;
 }
 
 #TitleAndTop {

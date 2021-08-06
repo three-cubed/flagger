@@ -2,7 +2,7 @@ const Flag = ( props ) => {
     return (
         <div className='flagIndividualContainer'>
 
-            <h4>{props.fullName}</h4>
+            <h5>{props.fullName}</h5>
 
             <br />
             {/* <small><small>_id: {props._id}</small></small> */}

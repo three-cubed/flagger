@@ -22,41 +22,78 @@ const TickBoxes = ( props ) => {
     return (
         <div id ='TickBoxes'>
            
-           <div id="tickBoxDiv">
+           <div className="tickBoxDiv">
 
-                <div className="tickBoxSubdiv" onClick={checkInputs}>
+                <h3 className="tickBoxGroupTitle">Colours</h3>
 
-                    <h3 className="tickBoxSubDivTitle">Colours</h3>
+                <div className="tickBoxIntDiv" onClick={checkInputs}>
 
-                    <TickBox label='Blue' value='blue' />
-                    <TickBox label='Red' value='red' />
-                    <TickBox label='Green' value='green' />
-                    <TickBox label='White' value='white' />
-                    <TickBox label='Yellow' value='yellow'/>
-                    <TickBox label='Black' value='black' />
+                    <div className="tickBoxSubdiv">
 
-                </div>
+                        <TickBox label='Blue' value='blue' />
+                        <TickBox label='Red' value='red' />
+                        <TickBox label='White' value='white' />
 
-                <div className="tickBoxSubdiv" onClick={checkInputs}>
+                    </div>
 
-                    <h3 className="tickBoxSubDivTitle">Design</h3>
+                    <div className="tickBoxSubdiv">
 
-                    <TickBox label='Cross' value='cross' />
-                    <TickBox label='Saltire' value='saltire' />
-                    <TickBox label='Two-stripe' value='two' />
-                    <TickBox label='Three-stripe' value='three' />
+                        <TickBox label='Green' value='green' />
+                        <TickBox label='Yellow/Gold' value='yellow'/>
+                        <TickBox label='Black' value='black' />
+
+                    </div>
 
                 </div>
 
-                <div className="tickBoxSubdiv" onClick={checkInputs}>
+            </div>
 
-                    <h3 className="tickBoxSubDivTitle">Elements</h3>
+            <div className="tickBoxDiv">
 
-                    <TickBox label='Union Jack' value='jack' />
-                    <TickBox label='Shield' value='shield' />
-                    <TickBox label='Animal' value='animal' />
-                    <TickBox label='Star' value='star' />
-                    
+                <h3 className="tickBoxGroupTitle">Design</h3>
+
+                    <div className="tickBoxIntDiv" onClick={checkInputs}>
+
+                    <div className="tickBoxSubdiv" onClick={checkInputs}>
+
+                        <TickBox label='Cross' value='cross' />
+                        <TickBox label='Saltire' value='saltire' />
+
+                    </div>
+
+                    <div className="tickBoxSubdiv" onClick={checkInputs}>
+
+                        <TickBox label='Two-stripe' value='two' />
+                        <TickBox label='Three-stripe' value='three' />
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div className="tickBoxDiv">
+
+                <h3 className="tickBoxGroupTitle">Elements</h3>
+
+                <div className="tickBoxIntDiv" onClick={checkInputs}>
+
+                    <div className="tickBoxSubdiv" onClick={checkInputs}>
+
+                        <TickBox label='Sun' value='sun' />
+                        <TickBox label='Star' value='star' />
+                        <TickBox label='Tree' value='tree' />
+                        
+                    </div>
+
+                    <div className="tickBoxSubdiv" onClick={checkInputs}>
+
+                        <TickBox label='Union Jack' value='jack' />
+                        <TickBox label='Shield' value='shield' />
+                        <TickBox label='Animal' value='animal' />
+
+                    </div>
+
                 </div>
 
             </div>
