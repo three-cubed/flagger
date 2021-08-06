@@ -15,9 +15,14 @@ const Flags = ( props ) => {
 
     if (flagsToDisplay.length < 1) {
         return (
-          <h3 className='centredText noFlags'>
-            Unfortunately, none of the flags in the database match your search criteria.
-          </h3>
+            <>
+                <br /><br />
+                <div className='centredText noFlags'>
+                    <br />
+                    <h3>Unfortunately, none of the flags in the database match your search criteria.</h3>
+                    <br />
+                </div>
+            </>
         )
       }
     
