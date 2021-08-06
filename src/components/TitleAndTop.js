@@ -3,7 +3,7 @@ const TitleAndTop = () => {
     return (
         <div id ='TitleAndTop'>
            <br />
-           Flagger!
+           Welcome to Flagger!
         </div>
     )
 }

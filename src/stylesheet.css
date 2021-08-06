@@ -1,3 +1,5 @@
+/* CSS from create-react-app */
+
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -12,26 +14,58 @@ code {
       monospace;
 }
 
-#TitleAndTop {
-    color: blue;
-    font-size: 3vh;
+.container {
+  display: block;
+  text-align: right;
+  position: relative;
+  padding-left: 55px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+/* My CSS */
+
+.centredText {
+    text-align: center;
+}
+
+#flagsDisplay {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flagImage {
+  height: 66px;
+  width: 100px; 
+  border: 1px solid black;
+}
+
+.flagIndividualContainer {
+    text-align: center;
+    width:180px;
+    height:180px;
+    border: 4px solid black;
+    margin-bottom: 30px;
+}
+
+.noFlags {
+    background-color: rgba(255, 230, 0, 0.877);
 }
 
 #tickBoxDiv {
     display: flex; 
 }
 
-.container {
-    display: block;
-    text-align: right;
-    position: relative;
-    padding-left: 55px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 22px;
-}
-
 .tickBoxSubDivTitle {
     text-align: right;
     color: blue;
+}
+
+#TitleAndTop {
+  color: blue;
+  font-size: 4vh;
+  font-weight: bold;
+  text-align: center;
 }

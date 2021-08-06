@@ -12,20 +12,26 @@ const Flags = ( props ) => {
     }
 
     let flagsToDisplay = matchFlagsToTicks(flagData, props.ticked);
+
+    if (flagsToDisplay.length < 1) {
+        return (
+          <h3 className='centredText noFlags'>
+            Unfortunately, none of the flags in the database match your search criteria.
+          </h3>
+        )
+      }
     
     return (
-        <div>
-            FLAGS COMPONENT - Ticked: { props.ticked }
-            <br />
+        <div id='flagsDisplay'>
             {flagsToDisplay.map((item) => (
                 <Flag 
                     key={item._id} 
                     _id={item._id}
                     fullName={item.fullName}
                     features={item.features} 
+                    image={item.image} 
                 />
             ))}
-        
         </div>
     )
 }

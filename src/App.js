@@ -2,7 +2,6 @@ import { useState } from 'react';
 
 import TitleAndTop from './components/TitleAndTop';
 import TickBoxes from './components/TickBoxes';
-import MessagesComp from './components/MessagesComp';
 import Flags from './components/Flags';
 
 function App() {
@@ -14,10 +13,6 @@ function App() {
             <br />
             <TickBoxes 
                 updateTicks={ (returnArray) => setTicks(returnArray) }
-            />
-            <br />
-            <MessagesComp
-                messageToDisplay={ticks}
             />
             <br />
             <Flags 
