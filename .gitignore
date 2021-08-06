@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+NOTES_TO_SELF.txt
+array filtering.js
