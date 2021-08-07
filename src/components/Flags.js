@@ -24,7 +24,7 @@ const Flags = ( props ) => {
                 </div>
             </>
         )
-      }
+    }
     
     return (
         <div id='flagsDisplay'>

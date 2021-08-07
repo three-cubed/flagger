@@ -24,15 +24,16 @@ const TickBoxes = ( props ) => {
            
            <div className="tickBoxDiv">
 
-                <h3 className="tickBoxGroupTitle">Colours</h3>
+                <h3 className="tickBoxGroupTitle">Main colours</h3>
 
                 <div className="tickBoxIntDiv" onClick={checkInputs}>
 
                     <div className="tickBoxSubdiv">
 
                         <TickBox label='Blue' value='blue' />
-                        <TickBox label='Red' value='red' />
                         <TickBox label='White' value='white' />
+                        <TickBox label='Red' value='red' />
+                        <TickBox label='Not red' value='not-red' />
 
                     </div>
 
@@ -41,6 +42,16 @@ const TickBoxes = ( props ) => {
                         <TickBox label='Green' value='green' />
                         <TickBox label='Yellow/Gold' value='yellow'/>
                         <TickBox label='Black' value='black' />
+                        <TickBox label='Orange' value='orange' />
+
+                    </div>
+
+                    <div className="tickBoxSubdiv">
+
+                        <TickBox label='Not blue' value='not-blue' />
+                        <TickBox label='Not white' value='not-white' />
+                        <TickBox label='Not red' value='not-red' />
+                        <TickBox label='Not green' value='not-green' />
 
                     </div>
 
@@ -50,7 +61,7 @@ const TickBoxes = ( props ) => {
 
             <div className="tickBoxDiv">
 
-                <h3 className="tickBoxGroupTitle">Design</h3>
+                <h3 className="tickBoxGroupTitle">Design & shapes</h3>
 
                     <div className="tickBoxIntDiv" onClick={checkInputs}>
 
@@ -58,13 +69,16 @@ const TickBoxes = ( props ) => {
 
                         <TickBox label='Cross' value='cross' />
                         <TickBox label='Saltire' value='saltire' />
+                        <TickBox label='Canton' value='canton' />
 
                     </div>
 
                     <div className="tickBoxSubdiv" onClick={checkInputs}>
 
-                        <TickBox label='Two-stripe' value='two' />
-                        <TickBox label='Three-stripe' value='three' />
+                        <TickBox label='Two bands' value='two' />
+                        <TickBox label='Three bands' value='three' />
+                        <TickBox label='Many stripes' value='many' />
+                        <TickBox label='Triangle' value='triangle' />
 
                     </div>
 
@@ -74,14 +88,15 @@ const TickBoxes = ( props ) => {
 
             <div className="tickBoxDiv">
 
-                <h3 className="tickBoxGroupTitle">Elements</h3>
+                <h3 className="tickBoxGroupTitle">Imagery</h3>
 
                 <div className="tickBoxIntDiv" onClick={checkInputs}>
 
                     <div className="tickBoxSubdiv" onClick={checkInputs}>
 
                         <TickBox label='Sun' value='sun' />
-                        <TickBox label='Star' value='star' />
+                        <TickBox label='Stars' value='star' />
+                        <TickBox label='Crescent' value='crescent' />
                         <TickBox label='Tree' value='tree' />
                         
                     </div>
