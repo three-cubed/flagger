@@ -6,7 +6,7 @@ const flagData = [
 
     {_id: 'alb1', fullName: 'Republic of Albania', features: [''], image: 'comingSoon.png'},
 
-    {_id: 'alg1', fullName: "People's Democratic Republic of Algeria", features: [''], image: 'comingSoon.png'},
+    {_id: 'alg1', fullName: "People's Democratic Republic of Algeria", features: ['red', 'white', 'green', 'crescent', 'two'], image: 'abc/algeria-flag.png'},
 
     {_id: 'and1', fullName: 'Principality of Andorra', features: [''], image: 'comingSoon.png'},
 
@@ -94,9 +94,9 @@ const flagData = [
     
     {_id: 'cyp1', fullName: 'Republic of Cyprus', features: [''], image: 'comingSoon.png'},
     
-    {_id: 'cyp5', fullName: 'Turkish Republic of Northern Cyprus', features: ['red', 'white', 'crescent'], image: 'abc/China_flag.png'},
+    {_id: 'cyp5', fullName: 'Turkish Republic of Northern Cyprus', features: ['red', 'white', 'crescent'], image: 'abc/cyprus-north-flag.png'},
 
-    {_id: 'cze1', fullName: 'Czech Republic', features: ['red', 'white', 'two', 'blue'], image: 'abc/Czechia_flag.png'},
+    {_id: 'cze1', fullName: 'Czech Republic', features: ['red', 'white', 'two', 'blue', 'triangle'], image: 'abc/Czechia_flag.png'},
 
     {_id: 'den1', fullName: 'Kingdom of Denmark', features: [''], image: 'comingSoon.png'},
     
@@ -140,7 +140,7 @@ const flagData = [
  
     {_id: 'gha1', fullName: 'Republic of Ghana', features: [''], image: 'comingSoon.png'},
     
-    {_id: 'gre1', fullName: 'Hellenic Republic (Greece)', features: ['blue', 'white', 'canton', 'cross', 'many'], image: 'defghijkl/greece-flag.png'},
+    {_id: 'gre1', fullName: 'Hellenic Republic (Greece)', features: ['blue', 'white', 'canton', 'cross', 'stripey'], image: 'defghijkl/greece-flag.png'},
     
     {_id: 'gre5', fullName: 'Grenada', features: [''], image: 'comingSoon.png'},
     
@@ -410,9 +410,9 @@ const flagData = [
 
     {_id: 'UK04', fullName: 'United Kingdom of Great Britain & Northern Ireland (government ships)', features: ['blue', 'white', 'red', 'jack'], image: 'tuvwxyz/UK_blue_ensign.png'},
     
-    {_id: 'USA1', fullName: 'United States of America', features: ['blue', 'white', 'red', 'canton', 'star', 'many'], image: 'tuvwxyz/usa-flag.png'},
+    {_id: 'USA1', fullName: 'United States of America', features: ['blue', 'white', 'red', 'canton', 'star', 'stripey'], image: 'tuvwxyz/usa-flag.png'},
 
-    {_id: 'uru1', fullName: 'Eastern Republic of the Uruguay', features: ['blue', 'white', 'yellow', 'canton', 'sun', 'many'], image: 'tuvwxyz/uruguay-flag.png'},
+    {_id: 'uru1', fullName: 'Eastern Republic of the Uruguay', features: ['blue', 'white', 'yellow', 'canton', 'sun', 'stripey'], image: 'tuvwxyz/uruguay-flag.png'},
 
     {_id: 'uzb1', fullName: 'Republic of Uzbekistan', features: [''], image: 'comingSoon.png'},
 

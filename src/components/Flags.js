@@ -20,6 +20,7 @@ const Flags = ( props ) => {
                 <div className='centredText noFlags'>
                     <br />
                     <h3>Unfortunately, none of the flags in the database match your search criteria.</h3>
+                    <p>You may find it useful to look at the help section by clicking on the help button at the top right of the screen.</p>
                     <br />
                 </div>
             </>

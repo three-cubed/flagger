@@ -33,13 +33,10 @@ const TickBoxes = ( props ) => {
                         <TickBox label='Blue' value='blue' />
                         <TickBox label='White' value='white' />
                         <TickBox label='Red' value='red' />
-                        <TickBox label='Not red' value='not-red' />
-
+                        <TickBox label='Green' value='green' />
                     </div>
 
                     <div className="tickBoxSubdiv">
-
-                        <TickBox label='Green' value='green' />
                         <TickBox label='Yellow/Gold' value='yellow'/>
                         <TickBox label='Black' value='black' />
                         <TickBox label='Orange' value='orange' />
@@ -77,7 +74,7 @@ const TickBoxes = ( props ) => {
 
                         <TickBox label='Two bands' value='two' />
                         <TickBox label='Three bands' value='three' />
-                        <TickBox label='Many stripes' value='many' />
+                        <TickBox label='Stripey' value='stripey' />
                         <TickBox label='Triangle' value='triangle' />
 
                     </div>
