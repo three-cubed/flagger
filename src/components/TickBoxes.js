@@ -58,9 +58,9 @@ const TickBoxes = ( props ) => {
 
             <div className="tickBoxDiv">
 
-                <h3 className="tickBoxGroupTitle">Design & shapes</h3>
+                <h3 className="tickBoxGroupTitle">Design, shapes, & imagery</h3>
 
-                    <div className="tickBoxIntDiv" onClick={checkInputs}>
+                <div className="tickBoxIntDiv" onClick={checkInputs}>
 
                     <div className="tickBoxSubdiv" onClick={checkInputs}>
 
@@ -79,21 +79,21 @@ const TickBoxes = ( props ) => {
 
                     </div>
 
-                </div>
+                {/* </div> */}
 
-            </div>
+            {/* </div>
 
             <div className="tickBoxDiv">
 
                 <h3 className="tickBoxGroupTitle">Imagery</h3>
 
-                <div className="tickBoxIntDiv" onClick={checkInputs}>
+                <div className="tickBoxIntDiv" onClick={checkInputs}> */}
 
                     <div className="tickBoxSubdiv" onClick={checkInputs}>
 
                         <TickBox label='Sun' value='sun' />
                         <TickBox label='Stars' value='star' />
-                        <TickBox label='Crescent' value='crescent' />
+                        <TickBox label='Crescent & star' value='crescent' />
                         <TickBox label='Tree' value='tree' />
                         
                     </div>
@@ -101,8 +101,9 @@ const TickBoxes = ( props ) => {
                     <div className="tickBoxSubdiv" onClick={checkInputs}>
 
                         <TickBox label='Union Jack' value='jack' />
-                        <TickBox label='Shield' value='shield' />
                         <TickBox label='Animal' value='animal' />
+                        <TickBox label='Shield' value='shield' />
+                        <TickBox label='Weapon' value='weapon' />
 
                     </div>
 

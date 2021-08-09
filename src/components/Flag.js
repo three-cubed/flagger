@@ -1,4 +1,5 @@
 const Flag = ( props ) => {
+
     return (
         <div className='flagIndividualContainer'>
 
