@@ -19,17 +19,17 @@ const Help = () => {
             <h3>Main colours</h3>
 
             <p>
-                Ticked boxes search for main colours. In some cases this is simple; for example blue-white-red is indisputable for France. 
-                In other this is disputable; for example, Flagger works on the basis that the Kenyan flag's main colours are black-red-green, and not white. 
-                A thin band of colour that sits alongside a thick stripe is not counted as a main colour. 
+                Ticked boxes search for main colours. In some cases this is simple; for example blue-white-red is indisputable for France.
+                In other this is disputable; for example, Flagger works on the basis that the Kenyan flag's main colours are black-red-green, and not white.
+                A thin band of colour that sits alongside a thick stripe is not counted as a main colour.
                 Blue, white and red are considered main colours in any flag containing the union jack.
             </p> 
             <p>
-                The colour of imagery is generally included as a main colour, but this depends on the prominence. 
+                The colour of imagery is generally included as a main colour, but this depends on the prominence.
                 For example, Flagger includes yellow as a main colour of flag of South Sudan, due to the prominent yellow stars.
                 However, Flagger does not include yellow as a main colour of the flag of Equatorial Guinea, as the six yellow stars are not prominent.
-                As another example, for Belize, Flagger works on the basis the main colours are blue-white-red, and not, for example, green, 
-                although it is seen in the small leaves of the central emblem.  
+                As another example, for Belize, Flagger works on the basis the main colours are blue-white-red, and not, for example, green,
+                although it is seen in the small leaves of the central emblem.
             </p>
             <p>
                 Ticking 'not' a colour means it is not a main colour. It does not mean the colour is not in the flag.
@@ -38,7 +38,7 @@ const Help = () => {
                 If your search has not produced your flag, try to consider what choices you have made as regards which colours are the main colours.
             </p>
 
-            <h3>Stars and crescents</h3>
+            <h3>Star and crescent</h3>
 
             <p>
                 To streamline searches, as crescents generally come with stars, Flagger will not consider a crescent and star to separartely have a star.
@@ -67,7 +67,7 @@ const Help = () => {
             <h3>Notes on specific flags</h3>
 
             <ul>
-                <li>The machete on the flag of Angola is an agricultural tool, not a weapon</li>
+                <li>The machete on the flag of Angola is an agricultural tool, not a weapon.</li>
                 <li>The red circle on the flag of Bangladesh is blood, not the sun.</li>
             </ul>
 

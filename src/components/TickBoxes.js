@@ -92,7 +92,7 @@ const TickBoxes = ( props ) => {
                     <div className="tickBoxSubdiv" onClick={checkInputs}>
 
                         <TickBox label='Sun' value='sun' />
-                        <TickBox label='Stars' value='star' />
+                        <TickBox label='Star(s)' value='star' />
                         <TickBox label='Crescent & star' value='crescent' />
                         <TickBox label='Tree' value='tree' />
                         
