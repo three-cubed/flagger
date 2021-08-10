@@ -218,7 +218,7 @@ const flagData = [
     
     {_id: 'ken1', fullName: 'Republic of Kenya', features: ['black', 'red', 'green', 'white', 'shield', 'weapon', 'three'], image: 'd-to-l/kenya-flag.png'},
     
-    {_id: 'kir1', fullName: 'Republic of Kiribati', features: ['red', 'blue', 'yellow', 'whtie', 'stripey', 'sun', 'animal'], image: 'd-to-l/kiribati-flag.png'},
+    {_id: 'kir1', fullName: 'Republic of Kiribati', features: ['red', 'blue', 'yellow', 'white', 'stripey', 'sun', 'animal'], image: 'd-to-l/kiribati-flag.png'},
     
     {_id: 'kor1', fullName: "Democratic People's Republic of Korea", features: ['blue', 'white', 'red', 'star', 'three'], image: 'd-to-l/korea-north-flag.png'},
     
