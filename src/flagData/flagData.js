@@ -208,7 +208,9 @@ const flagData = [
     
     {_id: 'jam1', fullName: 'Jamaica', features: ['saltire', 'green', 'yellow', 'black'], image: 'd-to-l/jamaica-flag.png'},
 
-    {_id: 'jap1', fullName: 'Japan', features: ['red', 'white', 'sun'], image: 'd-to-l/Japan_flag.png'},
+    {_id: 'jap1', fullName: 'Japan', features: ['red', 'white', 'sun'], image: 'd-to-l/japan-flag.png'},
+
+    {_id: 'jap2', fullName: 'Japan (warships)', features: ['red', 'white', 'sun'], image: 'd-to-l/japan-warship-ensign.png'},
 
     {_id: 'jor1', fullName: 'Hashemite Kingdom of Jordan', features: ['three', 'triangle', 'star', 'black', 'red', 'white', 'green'], image: 'd-to-l/jordan-flag.png'},
 
@@ -361,6 +363,8 @@ const flagData = [
     {_id: 'sau1', fullName: 'Kingdom of Saudi Arabia', features: ['green', 'white', 'weapon'], image: 'mnopqrs/saudi-arabia-flag.png'},
 
     {_id: 'sau2', fullName: 'Kingdom of Saudi Arabia (civilian ships)', features: ['green', 'canton', 'weapon'], image: 'mnopqrs/saudi-arabia-civil-ensign.png'},
+
+    {_id: 'sau3', fullName: 'Kingdom of Saudi Arabia (warships)', features: ['green', 'blue', 'weapon'], image: 'mnopqrs/saudi-arabia-warship-ensign.png'},
 
     {_id: 'sco1', fullName: 'Scotland', features: ['blue', 'white', 'saltire'], image: 'mnopqrs/Scotland_flag.png'},
 
