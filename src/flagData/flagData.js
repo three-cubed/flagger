@@ -82,7 +82,9 @@ const flagData = [
 
     {_id: 'chi6', fullName: 'Republic of China (civilian ships)', features: ['blue', 'white', 'sun', 'red', 'canton', 'yellow', 'stripey'], image: 'abc/china-civil-ensign.png'},
     
-    {_id: 'chiX', fullName: "People's Republic of China", features: ['yellow', 'star', 'red'], image: 'abc/PRChina_flag.png'},
+    {_id: 'chiX', fullName: "People's Republic of China", features: ['yellow', 'star', 'red'], image: 'abc/PRChina-flag.png'},
+
+    {_id: 'chiY', fullName: "People's Republic of China (warships)", features: ['yellow', 'star', 'red', 'white', 'blue', 'stripey'], image: 'abc/PRChina-warship-ensign.png'},
 
     {_id: 'col1', fullName: 'Republic of Colombia', features: ['red', 'blue', 'yellow', 'three'], image: 'abc/colombia-flag.png'},
     
@@ -150,7 +152,9 @@ const flagData = [
 
     {_id: 'geo1', fullName: 'Georgia', features: ['red', 'white', 'cross'], image: 'd-to-l/georgia-flag.png'},
 
-    {_id: 'ger1', fullName: 'Federal Republic of Germany', features: ['black', 'yellow', 'red', 'three'], image: 'd-to-l/Germany_flag.png'},
+    {_id: 'ger1', fullName: 'Federal Republic of Germany', features: ['black', 'yellow', 'red', 'three'], image: 'd-to-l/germany-flag.png'},
+
+    {_id: 'ger2', fullName: 'Federal Republic of Germany (alternative)', features: ['black', 'yellow', 'red', 'three', 'shield', 'animal'], image: 'd-to-l/germany-alt-flag.png'},
  
     {_id: 'gha1', fullName: 'Republic of Ghana', features: ['three', 'star', 'red', 'black', 'yellow', 'green'], image: 'd-to-l/ghana-flag.png'},
     
@@ -194,7 +198,11 @@ const flagData = [
 
     {_id: 'ire3', fullName: 'Northern Ireland (limited official usage)', features: ['red', 'white', 'cross'], image: 'd-to-l/Ulster_Banner.png'},
 
-    {_id: 'ita1', fullName: 'Italian Republic', features: ['green', 'white', 'red', 'three'], image: 'd-to-l/Italy_flag.png'},
+    {_id: 'ita1', fullName: 'Italian Republic', features: ['green', 'white', 'red', 'three'], image: 'd-to-l/italy-flag.png'},
+
+    {_id: 'ita2', fullName: 'Italian Republic (civilian ships)', features: ['green', 'white', 'red', 'three', 'shield', 'animal'], image: 'd-to-l/italy-civil-ensign.png'},
+
+    {_id: 'ita3', fullName: 'Italian Republic (warships)', features: ['green', 'white', 'red', 'three', 'shield', 'animal'], image: 'd-to-l/italy-warship-ensign.png'},
 
     {_id: 'ivo1', fullName: 'Republic of the Ivory Coast', features: ['green', 'white', 'orange', 'three'], image: 'd-to-l/ivory-coast-flag.png'},
     
@@ -352,7 +360,7 @@ const flagData = [
 
     {_id: 'sau1', fullName: 'Kingdom of Saudi Arabia', features: ['green', 'white', 'weapon'], image: 'mnopqrs/saudi-arabia-flag.png'},
 
-    {_id: 'sau2', fullName: 'Kingdom of Saudi Arabia (civilain ships)', features: ['green', 'canton', 'weapon'], image: 'mnopqrs/saudi-arabia-civil-ensign.png'},
+    {_id: 'sau2', fullName: 'Kingdom of Saudi Arabia (civilian ships)', features: ['green', 'canton', 'weapon'], image: 'mnopqrs/saudi-arabia-civil-ensign.png'},
 
     {_id: 'sco1', fullName: 'Scotland', features: ['blue', 'white', 'saltire'], image: 'mnopqrs/Scotland_flag.png'},
 

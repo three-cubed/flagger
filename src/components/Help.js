@@ -4,17 +4,17 @@ const Help = () => {
 
             <h1 className='centredText'>Help!</h1>
 
-            <h5 className='centredText'>This section is for your general information, and might be useful if you cannot find the flag that you are looking for.</h5>
+            <h4 className='centredText'>This section is for your general information, and might be useful if you cannot find the flag that you are looking for.</h4>
 
             <h3 className='centredText'>Flags</h3>
 
-            <p>The project is currently aiming to show the current flags of all independent states.
+            <p>The project uses the main flags of all independent states.
                 Unrecognised states are included.
                 In addition, the Flagger data includes:
                 <ul>
                     <li>some other flags of the British Isles;</li>
-                    <li>official alternative flags for a number of countries;</li>
-                    <li>some flags for use at sea.</li>
+                    <li>some flags for use at sea;</li>
+                    <li>official alternative flags for a number of countries.</li>
                 </ul>
                 In the future, other flags, such as historical or regional flags, may also be added.
             </p>
