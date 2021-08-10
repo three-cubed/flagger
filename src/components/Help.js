@@ -69,6 +69,8 @@ const Help = () => {
             <ul>
                 <li>The machete on the flag of Angola is an agricultural tool, not a weapon.</li>
                 <li>The red circle on the flag of Bangladesh is blood, not the sun.</li>
+                <li>The aquamarine on the flag of the Bahamas is interpreted by Flagger as blue, and the trident of Poseidon as a weapon.</li>
+                <li>The emblem in the centre of the flag of El Salvador is a triangle, not a shield.</li>
             </ul>
 
         </div>

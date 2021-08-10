@@ -67,6 +67,7 @@ const TickBoxes = ( props ) => {
                         <TickBox label='Cross' value='cross' />
                         <TickBox label='Saltire' value='saltire' />
                         <TickBox label='Canton' value='canton' />
+                        <TickBox label='Triangle' value='triangle' />
 
                     </div>
 
@@ -75,7 +76,7 @@ const TickBoxes = ( props ) => {
                         <TickBox label='Two bands' value='two' />
                         <TickBox label='Three bands' value='three' />
                         <TickBox label='Stripey' value='stripey' />
-                        <TickBox label='Triangle' value='triangle' />
+                        <TickBox label='No emblem' value='no-emblem' />
 
                     </div>
 
