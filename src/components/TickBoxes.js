@@ -5,7 +5,6 @@ const TickBoxes = ( props ) => {
     const inputs = document.getElementsByTagName('input');
 
     function checkInputs() {
-        console.log('checkInputs()')
         let returnArray = [];
         let anyInputs = false;
         for (var i = 0; i < inputs.length; i++)  {

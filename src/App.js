@@ -12,7 +12,6 @@ function App() {
     const [showHelp, setShowHelp] = useState(false);
 
     function helpButtonFunction () {
-        console.log('helpButtonFunction');
         setShowHelp(!showHelp);
     }
 
