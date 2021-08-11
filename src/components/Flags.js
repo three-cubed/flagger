@@ -36,6 +36,7 @@ const Flags = ( props ) => {
                     fullName={item.fullName}
                     features={item.features} 
                     image={item.image} 
+                    amendClasses={props.amendClasses}
                 />
             ))}
         </div>

@@ -165,6 +165,8 @@ const flagData = [
     {_id: 'gua1', fullName: 'Republic of Guatemala', features: ['blue', 'white', 'three', 'animal', 'weapon'], image: 'd-to-l/guatemala-flag.png'},
 
     {_id: 'gua2', fullName: 'Republic of Guatemala (alternative)', features: ['blue', 'white', 'three'], image: 'd-to-l/guatemala-alt-flag.png'},
+
+    {_id: 'gue1', fullName: 'Bailiwick of Guernsey', features: ['red', 'white', 'yellow', 'cross'], image: 'd-to-l/guernsey-flag.png'},
     
     {_id: 'gui1', fullName: 'Republic of Guinea', features: ['three', 'red', 'yellow', 'green'], image: 'd-to-l/guinea-flag.png'},
     
@@ -211,6 +213,8 @@ const flagData = [
     {_id: 'jap1', fullName: 'Japan', features: ['red', 'white', 'sun'], image: 'd-to-l/japan-flag.png'},
 
     {_id: 'jap2', fullName: 'Japan (warships)', features: ['red', 'white', 'sun'], image: 'd-to-l/japan-warship-ensign.png'},
+
+    {_id: 'jer1', fullName: 'Bailiwick of Jersey', features: ['red', 'white', 'yellow', 'saltire', 'shield', 'animal'], image: 'd-to-l/jersey-flag.png'},
 
     {_id: 'jor1', fullName: 'Hashemite Kingdom of Jordan', features: ['three', 'triangle', 'star', 'black', 'red', 'white', 'green'], image: 'd-to-l/jordan-flag.png'},
 
@@ -267,6 +271,8 @@ const flagData = [
     {_id: 'mal9', fullName: 'Republic of Malta', features: ['white', 'red', 'cross'], image: 'mnopqrs/malta-flag.png'},
 
     {_id: 'malX', fullName: 'Republic of the Marshall Islands', features: ['blue', 'white', 'orange', 'sun'], image: 'mnopqrs/marshall-islands-flag.png'},
+
+    {_id: 'man1', fullName: 'Isle of Man', features: ['red', 'white', 'other-emblem'], image: 'mnopqrs/man-flag.png'},
 
     {_id: 'mau1', fullName: 'Islamic Republic of Mauritania', features: ['crescent', 'three', 'red', 'yellow', 'green'], image: 'mnopqrs/mauritania-flag.png'},
 
@@ -408,7 +414,7 @@ const flagData = [
     
     {_id: 'swe1', fullName: 'Kingdom of Sweden', features: ['blue', 'yellow', 'cross'], image: 'mnopqrs/sweden-flag.png'},
     
-    {_id: 'swi1', fullName: 'Swiss Confederation (Swiss Oath Commonwealth)', features: ['red', 'white', 'cross'], image: 'mnopqrs/switzerland-flag.png'},
+    {_id: 'swi1', fullName: 'Swiss Confederation', features: ['red', 'white', 'cross'], image: 'mnopqrs/switzerland-flag.png'},
 
     {_id: 'syr1', fullName: 'Syrian Arab Republic', features: ['black', 'white', 'red', 'green', 'star', 'three'], image: 'mnopqrs/Syria_flag.png'},
 

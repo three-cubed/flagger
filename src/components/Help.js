@@ -1,6 +1,6 @@
 const Help = () => {
     return (
-        <div id='help'>
+        <div className='help'>
 
             <h1 className='centredText'>Help!</h1>
 
@@ -19,7 +19,7 @@ const Help = () => {
                 In the future, other flags, such as historical or regional flags, may also be added.
             </p>
 
-            <p>While Flagger shows flag designs, many countries prescribe very specific ratios of width to length. Flagger does not apply these exact proportions.</p>
+            <p>Many countries prescribe very specific ratios of width to length for official usage. Flagger does not apply these exact proportions.</p>
                 
             <h3 className='centredText'>Main colours</h3>
 
@@ -47,12 +47,12 @@ const Help = () => {
 
             <p>
                 To streamline searches, as crescents generally come with a star/sun, Flagger will not consider a crescent and one single star/sun to separately have a star/sun.
-                This reduces the number of results thrown up by ticking stars. 
+                This reduces the number of results thrown up by ticking 'stars'. 
                 Nepal's flag includes the crescent and star separately from the sun, so is considered to have both separately.
                 If you are searching for a flag that has a crescent and just one star/sun, just tick 'crescent & star', and not 'stars' or 'sun'.
             </p>
             <p>
-                Uniquely, the flag of the Maldives has a crescent but no star. Nonetheless, it shows up in crescent and star searches.
+                Uniquely, the flag of the Maldives has a crescent but no star. Nonetheless, exceptionally, Flagger will accept it in crescent and star searches.
             </p>
 
             <h3 className='centredText'>Canton</h3>
@@ -76,7 +76,7 @@ const Help = () => {
             <h3 className='centredText'>Circles on flags</h3>
 
             <p>
-                Circles of colour on flags may represent the sun. the moon, blood, or an abstract concept.
+                Circles of colour on flags may represent the sun, the moon, blood, or an abstract concept.
                 Where it represents the sun or moon, Flagger will consider the circle an emblem. In other cases, it will not consider the circle an emblem.
                 The intended meaning of the orange circle on the flag of Niger is not recorded. Flagger interprets it as being the sun, a common interpretation.
             </p>
@@ -91,7 +91,7 @@ const Help = () => {
                 <li>The machete on the flag of Angola is an agricultural tool, not a weapon.</li>
                 <li>The red circle on the flag of Bangladesh represents blood, not the sun, and is not considered an emblem for this programme.</li>
                 <li>The yellow circle on the flag of Palau represents the moon, not the sun.</li>
-                <li>The aquamarine on the flag of the Bahamas is interpreted by Flagger as blue, and the trident of Poseidon as a weapon.</li>
+                <li>On the flag of the Bahamas, the aquamarine is interpreted by Flagger as blue, and the trident of Poseidon as a weapon.</li>
                 <li>The emblem in the centre of the flag of El Salvador is a triangle, not a shield.</li>
             </ul>
 

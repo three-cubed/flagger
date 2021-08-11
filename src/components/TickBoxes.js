@@ -17,9 +17,11 @@ const TickBoxes = ( props ) => {
         }
         props.updateTicks(returnArray);
     }
+
+    let conditionalLineBreak = '<br />'
     
     return (
-        <div id ='TickBoxes'>
+        <div id ={`TickBoxes${props.amendClasses}`}>
            
            <div className="tickBoxDiv">
 
@@ -36,6 +38,7 @@ const TickBoxes = ( props ) => {
                     </div>
 
                     <div className="tickBoxSubdiv">
+
                         <TickBox label='Yellow/Gold' value='yellow'/>
                         <TickBox label='Black' value='black' />
                         <TickBox label='Orange' value='orange' />
@@ -79,9 +82,9 @@ const TickBoxes = ( props ) => {
 
                     </div>
 
-                {/* </div> */}
+{/*                 </div>
 
-            {/* </div>
+            </div>
 
             <div className="tickBoxDiv">
 

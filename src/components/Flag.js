@@ -1,11 +1,10 @@
 const Flag = ( props ) => {
-
     return (
-        <div className='flagIndividualContainer'>
+        <div className={`flagIndividualContainer${props.amendClasses}`}>
 
             <br />
 
-            <img className='flagImage' src={require(`../images/${props.image}`).default} alt='no image'/>
+            <img className={`flagImage${props.amendClasses}`} src={require(`../images/${props.image}`).default} alt='no image'/>
 
             <h5>{props.fullName}</h5>
                 
