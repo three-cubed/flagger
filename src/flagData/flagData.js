@@ -20,8 +20,12 @@ const flagData = [
 
     {_id: 'art1', fullName: 'Republic of Artsakh', features: ['red', 'blue', 'orange', 'white', 'three'], image: 'abc/artsakh-flag.png'},
    
-    {_id: 'aus1', fullName: 'Commonwealth of Australia', features: ['blue', 'white', 'red', 'jack', 'star'], image: 'abc/Australia_flag.png'},
+    {_id: 'aus1', fullName: 'Commonwealth of Australia', features: ['blue', 'white', 'red', 'jack', 'star'], image: 'abc/australia-flag.png'},
  
+    {_id: 'aus2', fullName: 'Commonwealth of Australia (civilian ships)', features: ['blue', 'white', 'red', 'jack', 'star'], image: 'abc/australia-red-ensign.png'},
+
+    {_id: 'aus3', fullName: 'Commonwealth of Australia (warships)', features: ['blue', 'white', 'red', 'jack', 'star'], image: 'abc/australia-white-ensign.png'},
+
     {_id: 'aus5', fullName: 'Republic of Austria', features: ['red', 'white', 'three'], image: 'abc/austria-flag.png'},
 
     {_id: 'aus6', fullName: 'Republic of Austria (alternative)', features: ['red', 'white', 'three', 'black', 'animal', 'shield'], image: 'abc/austria-alt-flag.png'},
@@ -120,6 +124,8 @@ const flagData = [
 
     {_id: 'dom6', fullName: 'Dominican Republic (alternative)', features: ['red', 'white', 'blue', 'cross'], image: 'd-to-l/dominican-republic-alt-flag.png'},
 
+    {_id: 'don1', fullName: "Donetsk People's Republic", features: ['red', 'black', 'blue', 'three'], image: 'd-to-l/donetsk-flag.png'},
+    
     {_id: 'ecu1', fullName: 'Republic of Ecuador (Republic of the Equator)', features: ['yellow', 'blue', 'red', 'shield', 'animal', 'three'], image: 'd-to-l/ecuador-flag.png'},
    
     {_id: 'egy1', fullName: 'Arab Republic of Egypt', features: ['black', 'white', 'red', 'animal', 'yellow', 'three'], image: 'd-to-l/Egypt_flag.png'},
@@ -252,6 +258,8 @@ const flagData = [
     
     {_id: 'lit1', fullName: 'Republic of Lithuania', features: ['three', 'green', 'red', 'yellow'], image: 'd-to-l/lithuania-flag.png'},
     
+    {_id: 'luh1', fullName: "Luhansk People's Republic", features: ['red', 'blue', 'three'], image: 'd-to-l/luhansk-flag.png'},
+
     {_id: 'lux1', fullName: 'Grand Duchy of Luxembourg', features: ['three', 'blue', 'white', 'red'], image: 'd-to-l/luxembourg-flag.png'},
 
     {_id: 'lux2', fullName: 'Grand Duchy of Luxembourg (alternative)', features: ['stripey', 'blue', 'white', 'red', 'animal'], image: 'd-to-l/luxembourg-alt-flag.png'},
@@ -306,7 +314,11 @@ const flagData = [
 
     {_id: 'net1', fullName: 'Kingdom of the Netherlands', features: ['blue', 'white', 'red', 'three'], image: 'mnopqrs/netherlands-flag.png'},
 
-    {_id: 'new1', fullName: 'New Zealand', features: ['blue', 'white', 'jack', 'star', 'red'], image: 'mnopqrs/NZ_flag.png'},
+    {_id: 'new1', fullName: 'New Zealand', features: ['blue', 'white', 'jack', 'star', 'red'], image: 'mnopqrs/NZ-flag.png'},
+
+    {_id: 'new2', fullName: 'New Zealand (civilian ships)', features: ['blue', 'white', 'jack', 'star', 'red'], image: 'mnopqrs/NZ-red-ensign.png'},
+
+    {_id: 'new3', fullName: 'New Zealand (warships)', features: ['blue', 'white', 'jack', 'star', 'red'], image: 'mnopqrs/NZ-white-ensign.png'},
 
     {_id: 'nic1', fullName: 'Republic of Nicaragua', features: ['three', 'triangle', 'blue', 'white', 'other-emblem'], image: 'mnopqrs/nicaragua-flag.png'},
 
