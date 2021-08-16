@@ -13,7 +13,7 @@ const Help = () => {
                 In addition, the Flagger data includes:
                 <ul>
                     <li>some other flags of the British Isles;</li>
-                    <li>some flags for use at sea;</li>
+                    <li>some flags for use at sea (ensigns rather than jacks);</li>
                     <li>official alternative flags for a number of countries.</li>
                 </ul>
                 In the future, other flags, such as historical or regional flags, may also be added.
@@ -67,7 +67,7 @@ const Help = () => {
             <h3 className='centredText'>Union Jack</h3>
 
             <p>
-                The union jack contains both a cross and a saltire. A search for a saltire and cross will bring up the union jack itself. 
+                The union jack contains both a cross and a saltire. A search for a saltire and cross will bring up the union jack itself, including the embassy and consulate versions. 
                 However, for other flags which contain the union jack as an element Flagger will not consider the union jack element to contain a cross or saltire. 
                 This is to make searches more effective, as otherwise so many flags which contain a union jack will be thrown up by ticking cross or saltire.
                 Note that blue, white and red are considered main colours in any flag containing the union jack.
