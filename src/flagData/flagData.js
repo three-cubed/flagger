@@ -2,7 +2,9 @@ const flagData = [
 
     {_id: 'abk1', fullName: 'Republic of Abkhazia', features: ['red', 'white', 'green', 'stripey', 'star'], image: 'abc/abkhazia-flag.png'},
 
-    {_id: 'afg1', fullName: 'Islamic Republic of Afghanistan', features: ['black', 'red', 'green', 'three', 'other-emblem'], image: 'abc/afghanistan-flag.png'},
+    {_id: 'afg1', fullName: 'Islamic Emirate of Afghanistan', features: ['black', 'white'], image: 'abc/afghanistan-emirate-flag.png'},
+
+    {_id: 'afg5', fullName: 'Islamic Republic of Afghanistan', features: ['black', 'red', 'green', 'three', 'other-emblem'], image: 'abc/afghanistan-republic-flag.png'},
 
     {_id: 'alb1', fullName: 'Republic of Albania', features: ['red', 'black', 'animal'], image: 'abc/albania-flag.png'},
 
@@ -78,7 +80,7 @@ const flagData = [
     
     {_id: 'can1', fullName: 'Dominion of Canada', features: ['red', 'white', 'three', 'other-emblem'], image: 'abc/canada-flag.png'},
 
-    {_id: 'can2', fullName: 'Dominion of Canada (alternative flag shared with UK)', features: ['blue', 'white', 'red', 'cross', 'saltire', 'jack'], image: 'tuvwxyz/UK_flag.png'},
+    {_id: 'can2', fullName: 'Dominion of Canada (alternative flag; shared with UK)', features: ['blue', 'white', 'red', 'cross', 'saltire', 'jack'], image: 'tuvwxyz/UK_flag.png'},
     
     {_id: 'cap1', fullName: 'Republic of Cape Verde', features: ['blue', 'red', 'white', 'yellow', 'star'], image: 'abc/cape-verde-flag.png'},
     
@@ -97,12 +99,14 @@ const flagData = [
     {_id: 'chiY', fullName: "People's Republic of China (warships)", features: ['yellow', 'star', 'red', 'white', 'blue', 'stripey'], image: 'abc/PRChina-warship-ensign.png'},
 
     {_id: 'col1', fullName: 'Republic of Colombia', features: ['red', 'blue', 'yellow', 'three'], image: 'abc/colombia-flag.png'},
+
+    {_id: 'col23', fullName: 'Republic of Colombia (warships)', features: ['red', 'blue', 'yellow', 'three', 'shield', 'animal'], image: 'abc/colombia-warship-flag.png'},
     
     {_id: 'com1', fullName: 'Union of the Comoros', features: ['triangle', 'stripey', 'green', 'yellow', 'red', 'white', 'blue', 'crescent', 'star'], image: 'abc/comoros-flag.png'},
     
-    {_id: 'con1', fullName: 'Democratic Republic of the Congo', features: ['blue', 'red', 'yellow', 'star'], image: 'abc/congo-kinshasa-flag.png'},
+    {_id: 'con1', fullName: 'Democratic Republic of the Congo', features: ['blue', 'red', 'yellow', 'star', 'triangle'], image: 'abc/congo-kinshasa-flag.png'},
     
-    {_id: 'con5', fullName: 'Republic of the Congo', features: ['three', 'red', 'green', 'yellow'], image: 'abc/congo-brazzaville-flag.png'},
+    {_id: 'con5', fullName: 'Republic of the Congo', features: ['three', 'red', 'green', 'yellow', 'triangle'], image: 'abc/congo-brazzaville-flag.png'},
 
     {_id: 'conX', fullName: 'Connaught', features: ['blue', 'white', 'black', 'animal', 'weapon'], image: 'abc/connaught-flag.png'},
 
@@ -121,6 +125,8 @@ const flagData = [
     {_id: 'cze1', fullName: 'Czech Republic', features: ['red', 'white', 'two', 'blue', 'triangle'], image: 'abc/Czechia_flag.png'},
 
     {_id: 'den1', fullName: 'Kingdom of Denmark', features: ['red', 'white', 'cross'], image: 'd-to-l/denmark-flag.png'},
+
+    {_id: 'den2', fullName: 'Kingdom of Denmark (warships)', features: ['red', 'white', 'cross'], image: 'd-to-l/denmark-warship-flag.png'},
     
     {_id: 'dji1', fullName: 'Republic of Djibouti', features: ['triangle', 'two', 'red', 'white', 'blue', 'green', 'star'], image: 'd-to-l/djibouti-flag.png'},
     
@@ -304,9 +310,9 @@ const flagData = [
 
     {_id: 'mau5', fullName: 'Republic of Mauritius', features: ['blue', 'red', 'green', 'yellow', 'stripey'], image: 'mnopqrs/mauritius-flag.png'},
 
-    {_id: 'mau6', fullName: 'Republic of Mauritius (civilian ships)', features: ['blue', 'red', 'green', 'yellow', 'stripey', 'canton'], image: 'mnopqrs/mauritius-civil-ensign.png'},
+    {_id: 'mau6', fullName: 'Republic of Mauritius (civilian ships)', features: ['blue', 'red', 'green', 'yellow', 'stripey', 'canton', 'shield', 'animal'], image: 'mnopqrs/mauritius-civil-ensign.png'},
 
-    {_id: 'mau7', fullName: 'Republic of Mauritius (warships)', features: ['blue', 'red', 'white', 'stripey', 'star'], image: 'mnopqrs/mauritius-warship-flag.png'},
+    {_id: 'mau7', fullName: 'Republic of Mauritius (coastguard)', features: ['blue', 'red', 'white', 'stripey', 'star'], image: 'mnopqrs/mauritius-warship-flag.png'},
 
     {_id: 'mex1', fullName: 'United Mexican States', features: ['green', 'white', 'red', 'animal'], image: 'mnopqrs/mexico-flag.png'},
 
@@ -350,6 +356,8 @@ const flagData = [
 
     {_id: 'nor1', fullName: 'Kingdom of Norway', features: ['blue', 'red', 'cross'], image: 'mnopqrs/norway-flag.png'},
 
+    {_id: 'nor3', fullName: 'Kingdom of Norway (warships)', features: ['blue', 'red', 'cross'], image: 'mnopqrs/norway-warship-flag.png'},
+
     {_id: 'oma1', fullName: 'Sultanate of Oman', features: ['three', 'weapon', 'white', 'red', 'green'], image: 'mnopqrs/oman-flag.png'},
 
     {_id: 'pak1', fullName: 'Islamic Republic of Pakistan', features: ['green', 'white', 'crescent'], image: 'mnopqrs/pakistan-flag.png'},
@@ -371,6 +379,8 @@ const flagData = [
     {_id: 'phi1', fullName: 'Republic of the Philippines', features: ['triangle', 'two', 'blue', 'white', 'red', 'sun', 'star'], image: 'mnopqrs/philippines-flag.png'},
 
     {_id: 'pol1', fullName: 'Republic of Poland', features: ['red', 'white', 'two'], image: 'mnopqrs/Poland_flag.png'},
+
+    {_id: 'pol2', fullName: 'Republic of Poland (warships)', features: ['red', 'white', 'two', 'shield', 'animal'], image: 'mnopqrs/poland-warship-flag.png'},
 
     {_id: 'por1', fullName: 'Portuguese Republic', features: ['red', 'green', 'shield'], image: 'mnopqrs/Portugal_flag.png'},
 
@@ -458,7 +468,7 @@ const flagData = [
  
     {_id: 'taj1', fullName: 'Republic of Tajikistan', features: ['three', 'star', 'green', 'red', 'white', 'yellow'], image: 'tuvwxyz/tajikistan-flag.png'},
 
-    {_id: 'tan1', fullName: 'United Republic of Tanzania', features: ['three', 'black', 'green', 'blue'], image: 'tuvwxyz/tanzania-flag.png'},
+    {_id: 'tan1', fullName: 'United Republic of Tanzania', features: ['three', 'black', 'green', 'blue', 'triangle'], image: 'tuvwxyz/tanzania-flag.png'},
 
     {_id: 'tha1', fullName: 'Kingdom of Thailand', features: ['red', 'white', 'blue', 'stripey'], image: 'tuvwxyz/thailand-flag.png'},
 

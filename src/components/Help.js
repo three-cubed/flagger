@@ -78,7 +78,7 @@ const Help = () => {
             <p>
                 Circles of colour on flags may represent the sun, the moon, blood, or an abstract concept.
                 Where it represents the sun or moon, Flagger will consider the circle an emblem. In other cases, it will not consider the circle an emblem.
-                The intended meaning of the orange circle on the flag of Niger is not recorded. Flagger interprets it as being the sun, a common interpretation.
+                The intended meaning of the orange circle on the flag of Niger is not recorded. Flagger interprets it as being the sun, which is a common interpretation.
             </p>
             <p>
                 If you do not know the flag, the meaning of the circle is likely to be unknown to you.
