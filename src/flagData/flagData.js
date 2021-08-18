@@ -140,7 +140,7 @@ const flagData = [
     
     {_id: 'ecu1', fullName: 'Republic of Ecuador (Republic of the Equator)', features: ['yellow', 'blue', 'red', 'shield', 'animal', 'three'], image: 'd-to-l/ecuador-flag.png'},
    
-    {_id: 'egy1', fullName: 'Arab Republic of Egypt', features: ['black', 'white', 'red', 'animal', 'yellow', 'three'], image: 'd-to-l/Egypt_flag.png'},
+    {_id: 'egy1', fullName: 'Arab Republic of Egypt', features: ['black', 'white', 'red', 'animal', 'yellow', 'three'], image: 'd-to-l/egypt-flag.png'},
     
     {_id: 'els1', fullName: 'Republic of El Salvador', features: ['three', 'blue', 'white', 'triangle', 'other-emblem'], image: 'd-to-l/el-salvador-flag.png'},
 
