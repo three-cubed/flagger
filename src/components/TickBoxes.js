@@ -17,8 +17,6 @@ const TickBoxes = ( props ) => {
         }
         props.updateTicks(returnArray);
     }
-
-    let conditionalLineBreak = '<br />'
     
     return (
         <div id ={`TickBoxes${props.amendClasses}`}>
@@ -95,9 +93,10 @@ const TickBoxes = ( props ) => {
                     <div className="tickBoxSubdiv" onClick={checkInputs}>
 
                         <TickBox label='Sun' value='sun' />
-                        <TickBox label='Star(s)' value='star' />
+                        <TickBox label='One star' value='star' />
+                        <TickBox label='Stars' value='stars' />
                         <TickBox label='Crescent & star' value='crescent' />
-                        <TickBox label='Tree' value='tree' />
+                        {/* <TickBox label='Tree' value='tree' /> */}
                         
                     </div>
 

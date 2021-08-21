@@ -39,13 +39,15 @@ code {
 .flagImage {
   height: 84px;
   width: 150px; 
-  /* border: 1px solid rgba(0, 0, 0, 0.25); */
+}
+
+.flagIndividualContainer:hover {
+  cursor: pointer;
 }
 
 .flagImageNarrowScreen {
   height: 63px;
   width: 112.5px; 
-  border: 1px solid rgba(0, 0, 0, 0.25);
 }
 
 .flagIndividualContainer {
@@ -137,7 +139,7 @@ label {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-size: 16px;
+  font-size: 16px;
   width: 120%;
   position: relative;
   left: -10vw;

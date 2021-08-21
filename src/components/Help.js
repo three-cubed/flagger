@@ -6,14 +6,19 @@ const Help = () => {
 
             <h4 className='centredText'>This section is for your general information, and might be useful if you cannot find the flag that you are looking for.</h4>
 
-            <h3 className='centredText'>Flags</h3>
+            <h3 className='centredText'>Introduction</h3>
 
-            <p>The project uses the main flags of all independent states.
+            <p>
+                Flagger allows you to identify a flag you have seen by ticking boxes about its characteristics.
+                Click on a flag's box to be redirected to information about that country!
+            </p>
+
+            <p> The project uses the flags of all independent states. 
                 Unrecognised states are included.
                 In addition, the Flagger data includes:
                 <ul>
                     <li>some other flags of the British Isles;</li>
-                    <li>some flags for use at sea (ensigns rather than jacks);</li>
+                    <li>many flags for use at sea (ensigns rather than jacks);</li>
                     <li>official alternative flags for a number of countries.</li>
                 </ul>
                 In the future, other flags, such as historical or regional flags, may also be added.
@@ -25,7 +30,7 @@ const Help = () => {
 
             <p>
                 Ticked boxes search for main colours. In some cases this is simple; for example blue-white-red is indisputable for France.
-                In other this is disputable; for example, Flagger works on the basis that the Kenyan flag's main colours are black-red-green, and not white.
+                In many other cases, however, the main colours are debatable; for example, Flagger works on the basis that the Kenyan flag's main colours are black-red-green, but not white.
                 A thin band of colour that sits alongside a thick stripe is not counted as a main colour.
                 Blue, white and red are considered main colours in any flag containing the union jack.
             </p> 
@@ -46,10 +51,10 @@ const Help = () => {
             <h3 className='centredText'>Star and crescent</h3>
 
             <p>
-                To streamline searches, as crescents generally come with a star/sun, Flagger will not consider a crescent and one single star/sun to separately have a star/sun.
-                This reduces the number of results thrown up by ticking 'stars'. 
-                Nepal's flag includes the crescent and star separately from the sun, so is considered to have both separately.
-                If you are searching for a flag that has a crescent and just one star/sun, just tick 'crescent & star', and not 'stars' or 'sun'.
+                To streamline searches, as crescents generally come with a star/sun, Flagger will not consider a crescent and one single star/sun to also separately have a star/sun.
+                This reduces the number of results thrown up by ticking 'One star' or 'Sun'. 
+                Nepal's flag includes a crescent and star separately from the sun, so is considered to have both separately.
+                If you are searching for a flag that has a crescent and just one star/sun, just tick 'Crescent & star', and not 'One star' or 'Sun'.
             </p>
             <p>
                 Uniquely, the flag of the Maldives has a crescent but no star. Nonetheless, exceptionally, Flagger will accept it in crescent and star searches.

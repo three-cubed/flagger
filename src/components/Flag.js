@@ -1,6 +1,6 @@
 const Flag = ( props ) => {
     return (
-        <div className={`flagIndividualContainer${props.amendClasses}`}>
+        <div className={`flagIndividualContainer${props.amendClasses}`} onClick={() => window.open(`https://en.wikipedia.org/wiki/${props.wikiRef}`)}>
 
             <br />
 
