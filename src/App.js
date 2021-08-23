@@ -44,7 +44,7 @@ function App() {
     }
 
     return (
-        <div className="App">
+        <div className={`App${amendClasses}`}>
             <HelpButton helpButtonLabel='&emsp;Help!&emsp;' helpButtonFunction={helpButtonFunction} />
             <TitleAndTop />
             <br />

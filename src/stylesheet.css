@@ -25,6 +25,11 @@ code {
 
 /* My CSS */
 
+.AppNarrowScreen {
+  position: relative;
+  left: 20px;
+}
+
 .centredText {
     text-align: center;
 }
@@ -41,10 +46,6 @@ code {
   width: 150px; 
 }
 
-.flagIndividualContainer:hover {
-  cursor: pointer;
-}
-
 .flagImageNarrowScreen {
   height: 63px;
   width: 112.5px; 
@@ -59,6 +60,10 @@ code {
     background-color: lightcyan;
 }
 
+.flagIndividualContainer:hover {
+  cursor: pointer;
+}
+
 .flagIndividualContainerNarrowScreen {
   text-align: center;
   font-size: 12px;
@@ -67,6 +72,10 @@ code {
   border: 3px solid rgba(255, 230, 0, 0.877);
   margin-bottom: 18px;
   background-color: lightcyan;
+}
+
+.flagIndividualContainerNarrowScreen:hover {
+  cursor: pointer;
 }
 
 .help {

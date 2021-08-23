@@ -18,10 +18,10 @@ const Help = () => {
                 In addition, the Flagger data includes:
                 <ul>
                     <li>some other flags of the British Isles;</li>
-                    <li>many flags for use at sea (ensigns rather than jacks);</li>
+                    <li>nearly all variant flags for use at sea (ensigns rather than jacks);</li>
                     <li>official alternative flags for a number of countries.</li>
                 </ul>
-                In the future, other flags, such as historical or regional flags, may also be added.
+                Historic flags are not included.
             </p>
 
             <p>Many countries prescribe very specific ratios of width to length for official usage. Flagger does not apply these exact proportions.</p>
@@ -36,7 +36,7 @@ const Help = () => {
             </p> 
             <p>
                 The colour of imagery is generally included as a main colour, but this depends on the prominence.
-                For example, Flagger includes yellow as a main colour of flag of South Sudan, due to the prominent yellow stars.
+                For example, Flagger includes yellow as a main colour of flag of South Sudan, due to the prominent yellow star.
                 However, Flagger does not include yellow as a main colour of the flag of Equatorial Guinea, as the six yellow stars are not prominent.
                 As another example, for Belize, Flagger works on the basis the main colours are blue-white-red, and not, for example, green,
                 although it is seen in the small leaves of the central emblem.
@@ -60,13 +60,11 @@ const Help = () => {
                 Uniquely, the flag of the Maldives has a crescent but no star. Nonetheless, exceptionally, Flagger will accept it in crescent and star searches.
             </p>
 
-            <h3 className='centredText'>Canton</h3>
+            <h3 className='centredText'>Corner box</h3>
 
             <p>
-                A canton is, strictly speaking any quarter of a flag. However, it is loosely used to mean a box in the upper corner on the side of the flagpole.
-                Flagger uses the looser usage.
-                Be aware that depending on the country's traditions, this may be displayed at the top left of the flag image, rather than the top right.
-                If this part of the flag contains a union jack, however, Flagger considers this to be specifically a union jack element, rather than a canton element.
+                If a corner box contains a union jack, Flagger considers this to be a union jack element, rather than a corner box element. 
+                This makes searches more differentiated and therefore more streamlined.
             </p>
 
             <h3 className='centredText'>Union Jack</h3>

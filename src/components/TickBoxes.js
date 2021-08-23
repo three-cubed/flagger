@@ -13,9 +13,10 @@ const TickBoxes = ( props ) => {
                 returnArray.push(inputs[i].value);
             }
         }
-        if (anyInputs === false) {
-        }
         props.updateTicks(returnArray);
+        // let returnArrayIncludesJack = false;
+        // if (returnArray.includes('jack')) returnArrayIncludesJack = true;
+        // console.log('returnArrayIncludesJack ' + returnArrayIncludesJack)
     }
     
     return (
@@ -66,7 +67,7 @@ const TickBoxes = ( props ) => {
 
                         <TickBox label='Cross' value='cross' />
                         <TickBox label='Saltire' value='saltire' />
-                        <TickBox label='Canton' value='canton' />
+                        <TickBox label='Corner box' value='corner' />
                         <TickBox label='Triangle' value='triangle' />
 
                     </div>
@@ -79,16 +80,6 @@ const TickBoxes = ( props ) => {
                         <TickBox label='No emblem' value='no-emblem' />
 
                     </div>
-
-{/*                 </div>
-
-            </div>
-
-            <div className="tickBoxDiv">
-
-                <h3 className="tickBoxGroupTitle">Imagery</h3>
-
-                <div className="tickBoxIntDiv" onClick={checkInputs}> */}
 
                     <div className="tickBoxSubdiv" onClick={checkInputs}>
 
