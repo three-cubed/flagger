@@ -6,17 +6,12 @@ const TickBoxes = ( props ) => {
 
     function checkInputs() {
         let returnArray = [];
-        let anyInputs = false;
         for (var i = 0; i < inputs.length; i++)  {
             if (inputs[i].checked === true)   {
-                anyInputs = true;
                 returnArray.push(inputs[i].value);
             }
         }
         props.updateTicks(returnArray);
-        // let returnArrayIncludesJack = false;
-        // if (returnArray.includes('jack')) returnArrayIncludesJack = true;
-        // console.log('returnArrayIncludesJack ' + returnArrayIncludesJack)
     }
     
     return (

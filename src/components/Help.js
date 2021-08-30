@@ -13,13 +13,13 @@ const Help = () => {
                 Click on a flag's box to be redirected to information about that country!
             </p>
 
-            <p> The project uses the flags of all independent states. 
+            <p> Flagger has over three hundred flags.
+                The project uses the flags of all independent states, including official alternative flags for a number of countries.
                 Unrecognised states are included.
                 In addition, the Flagger data includes:
                 <ul>
                     <li>some other flags of the British Isles;</li>
-                    <li>nearly all variant flags for use at sea (ensigns rather than jacks);</li>
-                    <li>official alternative flags for a number of countries.</li>
+                    <li>nearly all civil and naval ensigns.</li>
                 </ul>
                 Historic flags are not included.
             </p>
@@ -32,7 +32,7 @@ const Help = () => {
                 Ticked boxes search for main colours. In some cases this is simple; for example blue-white-red is indisputable for France.
                 In many other cases, however, the main colours are debatable; for example, Flagger works on the basis that the Kenyan flag's main colours are black-red-green, but not white.
                 A thin band of colour that sits alongside a thick stripe is not counted as a main colour.
-                Blue, white and red are considered main colours in any flag containing the union jack.
+                Blue, white and red are considered to be main colours in any flag containing the union jack.
             </p> 
             <p>
                 The colour of imagery is generally included as a main colour, but this depends on the prominence.
@@ -51,13 +51,13 @@ const Help = () => {
             <h3 className='centredText'>Star and crescent</h3>
 
             <p>
-                To streamline searches, as crescents generally come with a star/sun, Flagger will not consider a crescent and one single star/sun to also separately have a star/sun.
+                To streamline searches, as crescents generally come with a star/sun, Flagger will not consider a crescent and one single star/sun to also, separately from the crescent search, have a star/sun.
                 This reduces the number of results thrown up by ticking 'One star' or 'Sun'. 
                 Nepal's flag includes a crescent and star separately from the sun, so is considered to have both separately.
                 If you are searching for a flag that has a crescent and just one star/sun, just tick 'Crescent & star', and not 'One star' or 'Sun'.
             </p>
             <p>
-                Uniquely, the flag of the Maldives has a crescent but no star. Nonetheless, exceptionally, Flagger will accept it in crescent and star searches.
+                Uniquely, the flag of the Maldives has a crescent but no star/sun. Nonetheless, exceptionally, Flagger will accept it in crescent and star searches.
             </p>
 
             <h3 className='centredText'>Corner box</h3>
@@ -92,7 +92,7 @@ const Help = () => {
 
             <ul>
                 <li>The machete on the flag of Angola is an agricultural tool, not a weapon.</li>
-                <li>The red circle on the flag of Bangladesh represents blood, not the sun, and is not considered an emblem for this programme.</li>
+                <li>The red circle on the flag of Bangladesh represents blood, not the sun, and is not considered an emblem by this programme.</li>
                 <li>The yellow circle on the flag of Palau represents the moon, not the sun.</li>
                 <li>On the flag of the Bahamas, the aquamarine is interpreted by Flagger as blue, and the trident of Poseidon as a weapon.</li>
                 <li>The emblem in the centre of the flag of El Salvador is a triangle, not a shield.</li>

@@ -6,7 +6,6 @@ import TickBoxes from './components/TickBoxes';
 import Flags from './components/Flags';
 import Help from './components/Help';
 
-
 function App() {
     const [ticks, setTicks] = useState([]);
     const [showHelp, setShowHelp] = useState(false);
@@ -24,6 +23,7 @@ function App() {
         } else {
             setTooNarrow(false);
         }
+        // console.log('func says: ' + window.innerWidth)
     }
 
     window.onresize = detectMobileOrNarrow;
