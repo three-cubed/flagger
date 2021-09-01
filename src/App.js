@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 import HelpButton from './components/HelpButton';
 import TitleAndTop from './components/TitleAndTop';
@@ -25,6 +25,12 @@ function App() {
         }
         // console.log('func says: ' + window.innerWidth)
     }
+
+    useEffect(() => {
+        detectMobileOrNarrow();
+      }, []);
+    // This effect will work once, on intital loading.
+    // This means programme will react to the first fullscreening of the window after opening on a narrow window.
 
     window.onresize = detectMobileOrNarrow;
 
