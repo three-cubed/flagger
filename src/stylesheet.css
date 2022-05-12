@@ -58,6 +58,7 @@ code {
     border: 4px solid rgba(255, 230, 0, 0.877);
     margin-bottom: 30px;
     background-color: lightcyan;
+    border-radius:3%;
 }
 
 .flagIndividualContainer:hover {
@@ -122,6 +123,7 @@ label {
     flex-direction: column;
     background-color: rgb(255, 221, 0);
     border: 1px solid white;
+    border-radius: 1.3%;
 }
 
 .tickBoxIntDiv {
