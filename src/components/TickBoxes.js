@@ -29,6 +29,7 @@ const TickBoxes = ( props ) => {
                         <TickBox label='White' value='white' />
                         <TickBox label='Red' value='red' />
                         <TickBox label='Green' value='green' />
+
                     </div>
 
                     <div className="tickBoxSubdiv">

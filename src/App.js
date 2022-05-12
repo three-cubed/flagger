@@ -29,7 +29,7 @@ function App() {
     useEffect(() => {
         detectMobileOrNarrow();
       }, []);
-    // This effect will work once, on intital loading.
+    // This effect will work once, on intitial loading.
     // This means programme will react to the first fullscreening of the window after opening on a narrow window.
 
     window.onresize = detectMobileOrNarrow;
