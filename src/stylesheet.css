@@ -58,7 +58,7 @@ code {
     border: 4px solid rgba(255, 230, 0, 0.877);
     margin-bottom: 30px;
     background-color: lightcyan;
-    border-radius:3%;
+    border-radius:4%;
 }
 
 .flagIndividualContainer:hover {

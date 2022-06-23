@@ -16,7 +16,7 @@ function App() {
     function helpButtonFunction () {
         setShowHelp(!showHelp);
     }
-    
+
     function detectMobileOrNarrow() { 
         if (window.innerWidth <= 990) {
             setTooNarrow(true);

@@ -4,7 +4,7 @@ const Flag = ( props ) => {
 
             <br />
 
-            <img className={`flagImage${props.amendClasses}`} src={require(`../images/${props.image}`).default} alt='no image'/>
+            <img className={`flagImage${props.amendClasses}`} src={require(`../images/${props.image}`)} alt='no image'/>
 
             <h5>{props.fullName}</h5>
                 
