@@ -17,7 +17,8 @@ Historic flags are not included.
 
 Before first use:
 1. Install NodeJS, if it is not already installed on your system.
-2. Use the command `npm install` on the root directory.
+2. Install Typescript, using `npm install --global typescript`.
+3. Use the command `npm install` on the root directory.
 
 #### Using the application
 
