@@ -524,7 +524,7 @@ const flagData = [
 
     {_id: 'sau1', fullName: 'Kingdom of Saudi Arabia', features: ['green', 'white', 'weapon'], image: 'mnopqrs/saudi-arabia-flag.png'},
 
-    {_id: 'sau2', fullName: 'Kingdom of Saudi Arabia (civilian ships)', features: ['green', 'corner', 'weapon'], image: 'mnopqrs/saudi-arabia-civil-ensign.png'},
+    {_id: 'sau2', fullName: 'Kingdom of Saudi Arabia (civilian ships)', features: ['green', 'white', 'corner', 'weapon'], image: 'mnopqrs/saudi-arabia-civil-ensign.png'},
 
     {_id: 'sau3', fullName: 'Kingdom of Saudi Arabia (naval vessels)', features: ['green', 'blue', 'white', 'weapon'], image: 'mnopqrs/saudi-arabia-warship-ensign.png'},
 
