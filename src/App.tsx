@@ -11,7 +11,7 @@ function App() {
     const [showHelp, setShowHelp] = useState<boolean>(false);
     const [tooNarrow, setTooNarrow] = useState<boolean>(false);
 
-    let amendClasses = '';
+    let amendClasses: string = '';
 
     function helpButtonFunction () {
         setShowHelp(!showHelp);

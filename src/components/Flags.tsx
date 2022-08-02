@@ -9,16 +9,14 @@ type props = {
 
 const Flags = ( { amendClasses, ticked } : props ) => {
 
-    function matchFlagsToTicks(flagsAll: Country[], tickedData: string[]) {
+    function matchFlagsToTicks(flagsAll: Country[], tickedData: string[]): Country[] {
         const checkFlagMatches = (flag: Country) => {
             const result = flag.features.filter(feature => tickedData.includes(feature)).length === tickedData.length;
             return [flag, result]
         }
         return flagsAll.filter(flag => checkFlagMatches(flag)[1] === true);
     }
-
-    console.log(flagData)
-    let flagsToDisplay = matchFlagsToTicks(flagData, ticked);
+    let flagsToDisplay: Country[] = matchFlagsToTicks(flagData, ticked);
 
     if (flagsToDisplay.length < 1) {
         return (

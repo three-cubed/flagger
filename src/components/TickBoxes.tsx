@@ -7,10 +7,10 @@ type props = {
 
 const TickBoxes = ( { updateTicks, amendClasses } : props ) => {
 
-    const inputs = document.getElementsByTagName('input');
+    const inputs: HTMLCollectionOf<HTMLInputElement> = document.getElementsByTagName('input');
 
-    function checkInputs() {
-        let returnArray = [];
+    function checkInputs(): void {
+        let returnArray: string[] = [];
         for (var i = 0; i < inputs.length; i++)  {
             if (inputs[i].checked === true)   {
                 returnArray.push(inputs[i].value);
