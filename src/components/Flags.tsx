@@ -1,17 +1,24 @@
 import Flag from './Flag';
 import flagData from '../flagData/flagData';
+import Country from '../model/Country';
 
-const Flags = ( props ) => {
+type props = {
+    amendClasses: string;
+    ticked: string[];
+}
 
-    function matchFlagsToTicks(flagsAll, tickedData) {
-        const checkFlagMatches = (flag) => {
+const Flags = ( { amendClasses, ticked } : props ) => {
+
+    function matchFlagsToTicks(flagsAll: Country[], tickedData: string[]) {
+        const checkFlagMatches = (flag: Country) => {
             const result = flag.features.filter(feature => tickedData.includes(feature)).length === tickedData.length;
             return [flag, result]
         }
         return flagsAll.filter(flag => checkFlagMatches(flag)[1] === true);
     }
 
-    let flagsToDisplay = matchFlagsToTicks(flagData, props.ticked);
+    console.log(flagData)
+    let flagsToDisplay = matchFlagsToTicks(flagData, ticked);
 
     if (flagsToDisplay.length < 1) {
         return (
@@ -31,13 +38,9 @@ const Flags = ( props ) => {
         <div id='flagsDisplay'>
             {flagsToDisplay.map((item) => (
                 <Flag 
-                    key={item._id} 
-                    _id={item._id}
-                    fullName={item.fullName}
-                    features={item.features} 
-                    image={item.image} 
-                    wikiRef={item.wikiRef}
-                    amendClasses={props.amendClasses}
+                    key={item._id}
+                    country={item}
+                    amendClasses={amendClasses}
                 />
             ))}
         </div>

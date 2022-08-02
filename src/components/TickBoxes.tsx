@@ -1,6 +1,11 @@
 import TickBox from './TickBox';
 
-const TickBoxes = ( props ) => {
+type props = {
+    updateTicks: React.Dispatch<React.SetStateAction<any[]>>;
+    amendClasses: string;
+}
+
+const TickBoxes = ( { updateTicks, amendClasses } : props ) => {
 
     const inputs = document.getElementsByTagName('input');
 
@@ -11,11 +16,11 @@ const TickBoxes = ( props ) => {
                 returnArray.push(inputs[i].value);
             }
         }
-        props.updateTicks(returnArray);
+        updateTicks(returnArray);
     }
     
     return (
-        <div id ={`TickBoxes${props.amendClasses}`}>
+        <div id ={`TickBoxes${amendClasses}`}>
            
            <div className="tickBoxDiv">
 

@@ -1,6 +1,8 @@
 
 ### Flagger - a ReactJS flag identification project
 
+This is the typescript version of the project.
+
 #### Project Overview
 
 The aim of this project is to allow the user to identify a flag by ticking boxes about its characteristics.
@@ -10,7 +12,6 @@ Flagger has over three hundred flags.
 The project uses the flags of all independent states, including unrecognised states, official alternative flags for a number of countries, and nearly all civil and naval ensigns currently in use. 
 Some other flags of the British Isles are included.
 Historic flags are not included.
-
 
 #### Before using the application
 

@@ -7,9 +7,9 @@ import Flags from './components/Flags';
 import Help from './components/Help';
 
 function App() {
-    const [ticks, setTicks] = useState([]);
-    const [showHelp, setShowHelp] = useState(false);
-    const [tooNarrow, setTooNarrow] = useState(false);
+    const [ticks, setTicks] = useState<string[]>([]);
+    const [showHelp, setShowHelp] = useState<boolean>(false);
+    const [tooNarrow, setTooNarrow] = useState<boolean>(false);
 
     let amendClasses = '';
 
