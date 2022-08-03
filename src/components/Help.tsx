@@ -1,4 +1,4 @@
-const Help = () => {
+const Help = () : JSX.Element => {
     return (
         <div className='help'>
 

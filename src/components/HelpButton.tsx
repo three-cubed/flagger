@@ -3,7 +3,7 @@ type props = {
     helpButtonFunction: () => void;
 }
 
-const HelpButton = ( { helpButtonLabel, helpButtonFunction } : props ) => {
+const HelpButton = ( { helpButtonLabel, helpButtonFunction } : props ) : JSX.Element => {
 
     return (
         <div id='helpButtonDiv'>

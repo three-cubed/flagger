@@ -5,7 +5,7 @@ type props = {
     amendClasses: string;
 }
 
-const Flag = ( { country, amendClasses } : props ) => {
+const Flag = ( { country, amendClasses } : props ) : JSX.Element => {
     return (
         <div className={`flagIndividualContainer${amendClasses}`} onClick={() => window.open(`https://en.wikipedia.org/wiki/${country.wikiRef}`)}>
 

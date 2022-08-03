@@ -7,7 +7,7 @@ type props = {
     ticked: string[];
 }
 
-const Flags = ( { amendClasses, ticked } : props ) => {
+const Flags = ( { amendClasses, ticked } : props ) : JSX.Element => {
 
     function matchFlagsToTicks(flagsAll: Country[], tickedData: string[]): Country[] {
         const checkFlagMatches = (flag: Country) => {

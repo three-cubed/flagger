@@ -3,7 +3,7 @@ type props = {
     value: string;
 }
 
-const TickBox = ( { label, value } : props ) => {
+const TickBox = ( { label, value } : props ) : JSX.Element => {
     
     return (
                 <label className="container">{label}

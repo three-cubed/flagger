@@ -5,7 +5,7 @@ type props = {
     amendClasses: string;
 }
 
-const TickBoxes = ( { updateTicks, amendClasses } : props ) => {
+const TickBoxes = ( { updateTicks, amendClasses } : props ) : JSX.Element => {
 
     const inputs: HTMLCollectionOf<HTMLInputElement> = document.getElementsByTagName('input');
 

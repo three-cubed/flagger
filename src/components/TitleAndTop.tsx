@@ -1,4 +1,4 @@
-const TitleAndTop = () => {
+const TitleAndTop = () : JSX.Element => {
     
     return (
         <div id ='TitleAndTop'>
