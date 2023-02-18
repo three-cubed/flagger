@@ -23,7 +23,7 @@ function App() {
         } else {
             setTooNarrow(false);
         }
-        // console.log('func says: ' + window.innerWidth)
+        // console.log('window.innerWidth = ' + window.innerWidth)
     }
 
     useEffect(() => {
