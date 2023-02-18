@@ -6,7 +6,7 @@ const flagData = [
 
     {_id: 'afg1', fullName: 'Islamic Emirate of Afghanistan', features: ['black', 'white'], image: 'abc/afghanistan-emirate-flag.png', wikiRef: ''},
 
-    {_id: 'afg5', fullName: 'Islamic Republic of Afghanistan', features: ['black', 'red', 'green', 'three', 'other-emblem'], image: 'abc/afghanistan-republic-flag.png', wikiRef: ''},
+    // {_id: 'afg5', fullName: 'Islamic Republic of Afghanistan', features: ['black', 'red', 'green', 'three', 'other-emblem'], image: 'abc/afghanistan-republic-flag.png', wikiRef: ''},
 
     {_id: 'alb1', fullName: 'Republic of Albania', features: ['red', 'black', 'animal'], image: 'abc/albania-flag.png', wikiRef: ''},
 
